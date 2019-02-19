@@ -5,7 +5,10 @@ public class SoundController
 {
 	public void start()
 	{
-		new Reminder(5);
-		System.out.println("start");
+		for (int i = 2; i <= 20; i = i + 2)
+		{
+			new Reminder(i);
+			System.out.println("start");
+		}
 	}
 }
