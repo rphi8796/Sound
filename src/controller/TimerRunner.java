@@ -1,10 +1,10 @@
 package controller;
 
-public class SoundRunner
+public class TimerRunner
 {
 	public static void main(String args[])
 	{
-		SoundController app = new SoundController();
+		TimerController app = new TimerController();
 		app.start();
 	}
 }

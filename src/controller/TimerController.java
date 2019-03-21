@@ -1,7 +1,7 @@
 package controller;
 import model.Reminder;
 
-public class SoundController
+public class TimerController
 {
 	public void start()
 	{
