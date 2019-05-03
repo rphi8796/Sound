@@ -19,6 +19,8 @@ public class TimerController
 		{
 			new Reminder(i);
 			System.out.println("Hamburger");
+			
+			
 		}
 		
 
