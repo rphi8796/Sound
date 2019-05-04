@@ -3,16 +3,16 @@ package view;
 import javax.swing.JFrame;
 import controller.TimerController;
 
-public class TimeFrame extends JFrame
+public class TimerFrame extends JFrame
 {
 	private TimerController appController;
-	private TimePanel appPanel;
+	private TimerPanel appPanel;
 	
-	public TimeFrame(TimerController appController)
+	public TimerFrame(TimerController appController)
 	{
 		super();
 		this.appController = appController;
-		this.appPanel = new TimePanel(appController);
+		this.appPanel = new TimerPanel(appController);
 		
 		setupFrame();
 	}

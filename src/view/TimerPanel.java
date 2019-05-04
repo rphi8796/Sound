@@ -10,13 +10,13 @@ import java.awt.event.ActionListener;
 import java.awt.Font;
 
 
-public class TimePanel extends JPanel
+public class TimerPanel extends JPanel
 {
 	private TimerController app;
 	private SpringLayout appLayout;
 	private JButton trueButton;
 	
-	public TimePanel(TimerController app)
+	public TimerPanel(TimerController app)
 	{
 		super();
 		

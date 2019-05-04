@@ -2,16 +2,16 @@ package controller;
 import java.util.ArrayList;
 
 import model.Reminder;
-import view.TimeFrame;
+import view.TimerFrame;
 
 public class TimerController
 {
 	public static boolean check = false;
 	public static ArrayList<String> words = new ArrayList<String>();
-	private TimeFrame appFrame;
+	private TimerFrame appFrame;
 	public TimerController()
 	{
-		appFrame = new TimeFrame(this);
+		appFrame = new TimerFrame(this);
 	}
 	public void start()
 	{
